@@ -6,9 +6,7 @@ export const Person = ({ person }) => {
       <h2 className="Person__name">My name is {person.name}</h2>
 
       <p className="Person__age">
-        {person.age
-          ? `I am ${person.age}`
-          : `Age not specified `}
+        {person.age ? `I am ${person.age}` : `Age not specified `}
       </p>
 
       <p className="Person__partner">
